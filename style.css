@@ -1,0 +1,847 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+  font-family: 'Montserrat', sans-serif;
+}
+
+.area_one{
+    background: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    height: 100.5vh;
+     text-align: center;
+     position: relative;
+     color: white;
+
+ 
+}
+
+
+
+.area_one li {
+    display: flex;
+    flex-direction: row;
+     padding:0.5250em 1.2500em; 
+  /* justify-content: space-between; */
+    display:inline-block;
+    
+}
+
+.logins{
+    display: flex;
+    flex-direction: row;
+    display:inline-block;
+    margin-left: 12.5rem;
+    
+}
+
+.area_one h2{
+    display:inline-block;
+    padding:0.5250em 1.2500em;
+    margin-right: 2.5rem;
+}
+
+.becaumememberbtn{
+    display:inline-block;
+    padding:1.5250em 2.2500em;
+    background-color: #3498DB;
+    border-radius: 8.5px;
+}
+
+.textinarea_one{
+    padding-top: 7.969rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:47.5vh;
+    text-align: center;
+}
+.textinarea_one h1{
+    color: white;
+    font-size: 4.375rem;
+    padding-bottom: 60.5px;
+}
+.textinarea_one p{
+    color: white;
+    font-size: 20.5px;
+    padding-bottom: 25px;
+}
+
+.buttons{
+    display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  
+
+}
+
+.btn1{
+    display: inline-flex;
+border-radius: 30px;
+padding: 15px;
+width: 170px;
+text-align: center;
+margin-right: 10px;
+justify-content: center;
+
+}
+
+.btn2{
+    
+    display: inline-flex;
+    border-radius:30px;
+    padding: 15px;
+    width:170px ;
+    text-align: center;
+    margin-left: 10px;
+    border:1px solid #ffff;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+
+
+.area_two{
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    justify-content: center;
+ background-color: rgb(184, 182, 182)
+
+ 
+
+}
+
+
+.area_two ion-icon {
+    height: 4em;
+    width: 3.5em;
+    color:#3498DB;
+}
+
+
+
+.one{
+    /*min-height: 150px;*/
+    transform: translate(10px, -85px);
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding:2.2500em;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+   
+}
+.two{
+
+ /*min-height: 150px;*/
+ transform: translate(10px, -85px);
+background-color: white;
+ display: flex;
+ flex-direction: column;
+ padding: 2.2500em;
+ padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+.three{
+    /*min-height: 150px;*/
+    transform: translate(10px, -85px);
+   background-color:#3498DB;
+    display: flex;
+    flex-direction: column;
+    padding: 2.2500em;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+
+}
+
+.three ion-icon{
+    color: #F6F6F6;
+}
+
+
+.area_three{
+    display: flex;
+    gap: 4%;
+    height: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+ background-color: white;
+ padding: 3.2500em;
+ align-items: center;
+ 
+}
+
+.three_one{
+    min-height: 150px;
+background-color: white;
+ display: flex;
+ flex-direction: column;
+padding: 2rem;
+text-align: center;
+
+}
+
+.three_one ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:#3498DB;
+justify-content: center;
+display: block;
+margin: 0 auto;
+}
+
+
+.three_two ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:#3498DB;
+justify-content: center;
+display: block;
+margin: 0 auto;
+  }
+
+.three_two{
+ min-height: 150px;
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+     text-align: center;
+     
+}
+
+
+.three_three{
+    min-height: 150px;
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+     text-align: center;
+   
+}
+
+.three_three ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:#3498DB;
+justify-content: center;
+display: block;
+margin: 0 auto;
+}
+
+
+
+.area_four{
+    background-color: #F6F6F6;
+}
+
+.midsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.ratings_card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:2rem;
+align-items: center;
+
+}
+
+
+.ratings_card p{
+    padding-top: 30px;
+}
+.userone{
+    /* height: 80%; */
+    background-color: white;
+    border: 0.0625em solid grey;
+    flex-direction: column;
+    padding-top: 1.875em; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 2.5em;
+ 
+}
+
+.ratings_card img{
+    width:50%;
+    align-items: center;
+}
+
+.usertwo{
+    background-color: white;
+    border: 0.0625em solid grey;
+    flex-direction: column;
+    padding-top:1.875em; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 2.5em;
+    
+}
+
+.userthree{
+    background-color: white;
+    border: 0.0625em solid grey;
+    flex-direction: column;
+    padding-top: 1.875em;; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 2.5em;
+    
+    
+
+}
+
+.ratings_card ion-icon{
+    width: 20px;
+  height: 40px;
+    color: yellow;
+    padding-top: 10px;    
+
+}
+
+
+
+.areafive{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    gap:5.5%;
+    padding-top: 200px;
+
+}
+.areafive{
+    text-align: center;
+}
+
+.areafive img{
+   width:5%;
+    height:20%;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(90deg, #004788, #d71489);
+    justify-content: center;
+    padding-bottom: 2.4rem;    
+    margin-top: 4.5em;
+    margin-bottom: 7.5em;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.subscription p{
+margin-top: 45px;
+margin-right: 80px;
+color: white;
+font-size: 20px;
+
+}
+
+.sub_one{
+    display: flex;
+    flex-direction: row;
+    gap:-2px;
+}
+
+.subscription input{
+    width:150%;
+    height: 20px;
+   border-radius: 1px solid white;
+    margin-left: 40px;
+    margin-top: 50.9px;
+    padding-left: 30px;
+    padding-right: 80px;
+    text-align: left;
+    justify-content: center;
+}
+
+.subscription button{
+    width: 85%;
+    padding-left: 20px;
+    padding-right: 10px;
+    height:45.5%;
+    padding: 10px;
+    border-radius: 1px solid white;
+
+}
+
+.area_six{
+    text-align: center;
+    padding-bottom: 50px;
+    gap:12rem;
+    padding-top: 65px;
+}
+
+
+.price_listing{
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+.free_section{
+background-color: white;
+height:510px;
+padding-top: 40px;
+padding:5.5px;
+border-style: solid;
+border-color: #3498DB;
+}
+.standard_section{
+background-color: #041e42;
+height:510px;
+padding-top: 40px;
+padding:5.5px;
+border-style: solid;
+border-color: #3498DB;
+color: white;
+margin-top: -30px;
+padding-bottom: 49px;
+}
+
+
+
+.check_item p{
+    margin: 10px;
+
+}
+.check_item_two p{
+    margin:10px;
+}
+
+.price_listing button{
+    /* width:50%; */
+    height: 12.5%;
+    width:65%;
+    padding: 20px;
+    padding-left: 25px;
+    
+ 
+}
+
+.check_item ion-icon{
+    width:60px;
+    height: 30px;
+}
+
+.check_item_two ion-icon{
+    width:60px;
+    height: 30px;
+}
+
+.premium_section{
+background-color:white;
+height:510px;
+padding-top: 40px;
+padding:5.5px;
+border-style: solid;
+border-color: #3498DB;
+}
+
+.price_info h2{
+    padding-top: 25px;
+
+}
+.price_info h3{
+    padding-top: 25px;
+    color: #3498DB;
+}
+
+.price_info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    /* padding: 20px; */
+  }
+  
+  .check_item {
+    display: flex;
+  align-items: center;
+  margin-right: 20px;
+  }
+  
+  .check_item ion-icon {
+    margin-right: 10px;
+    color: green;
+  }
+
+  .check_item_two{
+    display: flex;
+  align-items: center;
+  margin-right: 20px;
+  }
+
+  .check_item_two ion-icon {
+    margin-right: 10px;
+    color: grey;
+  }
+
+
+  .area_seven{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    gap:6rem;
+    background-color: #041e42;
+    height:90vh;
+    /* align-items: center; */
+    justify-content:center ;
+    color: #ffff;
+    padding-top: 7rem;
+}
+
+  .area_eight{
+background-color: #f5f5f5;
+}
+
+.try{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap:2rem;
+    width: 45.5%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+ margin-left: 25%;
+ transform: translate(10px, -275px);
+ 
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:150%;
+/*  padding: 20px;*/
+    justify-content: center;
+    border-style: none;
+    background-color: white;
+    /* padding: 10px; */
+    
+}
+
+.try img{
+    width:40%;
+    height: 50%;
+    padding: 0%;
+    
+    
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    background-color: #3498DB;
+
+}
+
+
+input{
+    padding: 10px;
+    background-color: lightgray;
+}
+
+select {
+    padding: 10px;
+    background-color: lightgray;
+  }
+  
+  option {
+    padding:10px;
+    background-color: lightgray;
+  }
+
+.contactus{
+background-color: #f5f5f5;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:20rem;
+padding-top: 10px;  
+}
+
+.Info_onconsulting{
+    text-align: left;
+    padding-top: 40px;
+   
+}
+
+.btncontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-style: 1px solid;
+    border-color: white;
+    border-radius: 5.5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+justify-content: center;
+padding-top:50px;
+}
+
+
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 20px; */
+  }
+  
+  .contact_item {
+    display: flex;
+  align-items: center;
+  margin-right: 20px;
+  }
+  
+  .contact_item ion-icon {
+    margin-right: 10px;
+    color: #3498DB;
+    
+  }
+  
+  .footer_info{
+    padding: 20px;
+  }
+
+  .footer h4{
+    padding-bottom: 15px;
+  }
+
+  .footer p{
+    padding: 10px;
+  }
+
+  .backg{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px 20px;
+    gap: 12rem;
+    justify-content: space-around;
+  }
+  
+
+  .rights{
+display: flex;
+flex-direction: row;
+display: inline-block;
+gap: 1.1rem;
+text-align: center;
+padding: 40px;
+
+
+
+  }
+  
+
+  .logos{
+    display:flex;
+    flex-direction: row;
+    color: #3498DB;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .area_one li{
+        display: none;
+    }
+
+    .textinarea_one h1{
+   font-size: 24.5px;
+    }
+
+    .textinarea_one p{
+        font-size: 15px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .area_two{
+     flex-direction: column;
+     gap: 20px;
+
+    }
+
+
+    .ratings_card{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .areafive{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+          align-items: center;
+          gap: 1.7rem;
+     
+      }
+
+      .areafive img{
+         width:25%;
+    height:20%;
+      }
+
+      .price_info{
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+      }
+
+
+      .area_seven{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        padding-left: 30px;
+        gap: 1.2rem;
+        
+
+      }
+
+      .area_eight{
+        transform: translate(2px, 5px);        
+
+      }
+
+      label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    background-color: #3498DB;
+
+}
+
+
+input{
+    padding: 5px;
+    background-color: lightgray;
+}
+
+select {
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  option {
+    padding:5px;
+    background-color: lightgray;
+  }
+ .contactus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px;
+    gap: 15px;
+ }
+ .btncontact{
+padding: 20px;
+ }
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.backg{
+    padding:0px;
+}
+    .subscription{
+        display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(90deg, #004788, #d71489);
+    justify-content: center;
+        font-size: 5px;
+    margin-bottom: 7.5em;
+    padding-left: 2rem;
+    margin-left: 10px;
+    width: 92.5%;
+    margin-top: 15%;
+        
+    }
+    .subscription input{
+   width: 100px;
+   margin-left: 80px;
+   padding-right: 30px;
+    }
+
+    .subscription button{
+       width: min-content;
+       height: max-content;
+       margin-top: 46.5px;
+       left: -0.105;
+    }
+
+
+    
+   
+}
+
+
+
+ 
+
+
+
+    
+
+
+
