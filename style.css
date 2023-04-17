@@ -725,10 +725,18 @@ padding: 40px;
     .area_two{
      flex-direction: column;
      gap: 20px;
-     width:600px;
+     
      
     }
-
+    .one{
+        width:410.5px;
+    }
+    .two{
+        width:410.5px;
+    }
+    .three{
+        width:410.5px;
+    }
 
 
     .ratings_card{
@@ -840,7 +848,7 @@ padding: 20px;
     margin-bottom: 7.5em;
     padding-left: 2rem;
     margin-left: 10px;
-    width: 90.5%;
+    width: 89.5%;
     margin-top: 15%;
         
     }
