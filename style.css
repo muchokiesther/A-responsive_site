@@ -761,16 +761,22 @@ padding: 40px;
         flex-direction: column;
         font-size: 10px;
         padding-left: 30px;
-        gap: 1.2rem;
+        gap: 2.2rem;
         
 
       }
 
       .area_eight{
-        transform: translate(2px, 5px);        
+        transform: translate(2px, 75px);    
+        /* padding-left: 25px;   
+        padding-top: 20px; */
 
       }
 
+      .area_eight h2{
+        font-size: 12px;
+      }
+    
       label {
   margin-bottom: 5px;
   margin-top: 5px;
@@ -826,7 +832,7 @@ padding: 20px;
     margin-bottom: 7.5em;
     padding-left: 2rem;
     margin-left: 10px;
-    width: 92.5%;
+    width: 85.5%;
     margin-top: 15%;
         
     }
@@ -840,9 +846,9 @@ padding: 20px;
     .subscription button{
        width: min-content;
        height: max-content;
-       margin-top: 48.5px;
+       margin-top: 50.5px;
        left: -0.105;
-       font-size: 5.5px;
+       font-size: 7.5px;
     }
 
 
