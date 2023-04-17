@@ -725,8 +725,10 @@ padding: 40px;
     .area_two{
      flex-direction: column;
      gap: 20px;
-
+     width:600px;
+     
     }
+
 
 
     .ratings_card{
@@ -838,7 +840,7 @@ padding: 20px;
     margin-bottom: 7.5em;
     padding-left: 2rem;
     margin-left: 10px;
-    width: 95.5%;
+    width: 90.5%;
     margin-top: 15%;
         
     }
@@ -847,6 +849,9 @@ padding: 20px;
    margin-left: 60px;
    padding-right: 30px;
    font-size: 5.5px;
+    }
+    .subscription p{
+        font-size:10px ;
     }
 
     .subscription button{
