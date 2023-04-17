@@ -704,6 +704,9 @@ padding: 40px;
 
 @media screen and (max-width: 700px)
 {
+    .area_one{
+        background-size: cover;
+    }
     .area_one li{
         display: none;
     }
@@ -725,17 +728,19 @@ padding: 40px;
     .area_two{
      flex-direction: column;
      gap: 20px;
+     align-items: center;
      
      
     }
     .one{
-        width:410.5px;
+        width:310.5px;
+      
     }
     .two{
-        width:410.5px;
+        width:310.5px;
     }
     .three{
-        width:410.5px;
+        width:310.5px;
     }
 
 
