@@ -757,17 +757,20 @@ padding: 40px;
 
 
       .area_seven{
-        display: flex;
+        display: grid;
         flex-direction: column;
         font-size: 10px;
         padding-left: 30px;
-        gap: 2.2rem;
+        gap: 0.25em;
         
-
+      }
+      .continent_img{
+        width:90%;
+        height: 55%;
       }
 
       .area_eight{
-        transform: translate(2px, 75px);    
+        transform: translate(2px, 100px);    
         /* padding-left: 25px;   
         padding-top: 20px; */
 
@@ -775,6 +778,9 @@ padding: 40px;
 
       .area_eight h2{
         font-size: 12px;
+      }
+      .try img{
+        display: none;
       }
     
       label {
@@ -832,7 +838,7 @@ padding: 20px;
     margin-bottom: 7.5em;
     padding-left: 2rem;
     margin-left: 10px;
-    width: 85.5%;
+    width: 95.5%;
     margin-top: 15%;
         
     }
@@ -850,19 +856,7 @@ padding: 20px;
        left: -0.105;
        font-size: 7.5px;
     }
-
-
-    
    
 }
-
-
-
- 
-
-
-
-    
-
 
 
